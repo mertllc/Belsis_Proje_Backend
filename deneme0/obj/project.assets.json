@@ -5585,11 +5585,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mertl\\source\\repos\\deneme0\\deneme0\\deneme0.csproj",
+      "projectUniqueName": "C:\\Users\\mertl\\OneDrive\\Masaüstü\\staj2022\\denemeq\\deneme0\\deneme0.csproj",
       "projectName": "deneme0",
-      "projectPath": "C:\\Users\\mertl\\source\\repos\\deneme0\\deneme0\\deneme0.csproj",
+      "projectPath": "C:\\Users\\mertl\\OneDrive\\Masaüstü\\staj2022\\denemeq\\deneme0\\deneme0.csproj",
       "packagesPath": "C:\\Users\\mertl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mertl\\source\\repos\\deneme0\\deneme0\\obj\\",
+      "outputPath": "C:\\Users\\mertl\\OneDrive\\Masaüstü\\staj2022\\denemeq\\deneme0\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mertl\\AppData\\Roaming\\NuGet\\NuGet.Config",

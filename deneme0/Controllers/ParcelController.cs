@@ -21,5 +21,38 @@ namespace deneme0.Controllers
         {
             return _context.Parcels.ToList();
         }
+
+        [HttpPost]
+        public IActionResult AddEntity(Parcel par)
+        {
+            _context.Parcels.Add(par);
+            _context.SaveChanges();
+
+            return Ok(par.Id);
+        }
+        [HttpDelete]
+        public IActionResult DeleteEntity(Parcel par)
+        {
+
+            var value = _context.Parcels.Where(p => p.wkt == par.wkt).FirstOrDefault();
+            if (value == null)
+            {
+                return NotFound();
+            }
+            _context.Parcels.Remove(value);
+            _context.SaveChanges();
+            return Ok(par.Id);
+        }
+
+        [HttpPut]
+
+        public IActionResult UpdateEntity(Parcel context)
+        {
+            _context.Parcels.Update(context);
+            _context.SaveChanges();
+            return NoContent();
+        }
+
     }
+ 
 }
