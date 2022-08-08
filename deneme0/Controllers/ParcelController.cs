@@ -28,7 +28,7 @@ namespace deneme0.Controllers
             _context.Parcels.Add(par);
             _context.SaveChanges();
 
-            return Ok(par.Id);
+            return Ok(par);
         }
         [HttpDelete]
         public IActionResult DeleteEntity(Parcel par)
