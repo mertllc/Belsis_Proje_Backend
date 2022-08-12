@@ -9,6 +9,9 @@ namespace proje_deneme.Controllers
 
         }
         public DbSet<Parcel> Parcels { get; set; }
+        public DbSet<Mert> Merts { get; set; }
+
+        public DbSet<Deniz> DenizinDB { get; set; }
 
     }
 }

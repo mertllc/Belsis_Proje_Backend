@@ -30,7 +30,7 @@ namespace deneme0
                        builder.WithOrigins("http://127.0.0.1:5500", "http://127.0.0.1:5500").AllowAnyMethod().AllowAnyHeader()));
 
             services.AddControllersWithViews();
-            services.AddEntityFrameworkNpgsql().AddDbContext<ParcelDbContext>(opt => opt.UseNpgsql(Configuration.GetConnectionString("MyDBConnection")));
+            services.AddEntityFrameworkNpgsql().AddDbContext<ParcelDbContext>(opt => opt.UseNpgsql(Configuration.GetConnectionString("volkan")));
             services.AddMvc();
         }
 
